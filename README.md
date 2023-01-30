@@ -1,15 +1,28 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+Package for helping to format date from both String and DateTime.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+## Format DateTime 
+```dart
+import package:date_formatter/date_formatter.dart;
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+String formattedDate = DateFormatter.formatDateTime(
+    dateTime: DateTime.now(),
+    outputFormat: 'dd/MM/yyyy',
+);
+```
 
-Package for formating date from both String and DateTime
+## Format String Date
+```dart
+String formattedDate = DateFormatter.formatStringDate(
+    date: '25-01-2023 12:45:00',
+    inputFormat: 'dd-MM-yyyy HH:mm:ss',
+    outputFormat: 'dd MMM, yyyy',
+);
+```
 
+## Convert String to DateTime
+```dart
+DateTime? dateTime = DateFormatter.toDateTime(
+    date: '25-01-2023 12:45:00',
+    inputFormat: 'dd-MM-yyyy HH:mm:ss',
+);
+```

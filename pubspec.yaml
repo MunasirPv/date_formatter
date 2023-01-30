@@ -1,6 +1,6 @@
 name: date_formatter
 description: Package for helping to format date from both string an datetime
-version: 0.0.1
+version: 0.0.4
 homepage: https://github.com/MunasirPv/date_formatter.git
 
 environment:
