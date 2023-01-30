@@ -1,7 +1,7 @@
 name: date_formatter
-description: A new Flutter package project.
+description: Package for helping to format date from both string an datetime
 version: 0.0.1
-homepage:
+homepage: https://github.com/MunasirPv/date_formatter.git
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
