@@ -1,4 +1,4 @@
-library date_formatter;
+library easy_date_formatter;
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';

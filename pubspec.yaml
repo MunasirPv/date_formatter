@@ -1,16 +1,16 @@
-name: date_formatter
+name: easy_date_formatter
 description: Package for helping to format date from both string an datetime
-version: 0.0.4
+version: 0.0.1
 homepage: https://github.com/MunasirPv/date_formatter.git
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: '>=2.18.6 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.18.0
+  intl: 
 
 dev_dependencies:
   flutter_test:

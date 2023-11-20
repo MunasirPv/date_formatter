@@ -1,4 +1,4 @@
-import 'package:date_formatter/date_formatter.dart';
+import 'package:easy_date_formatter/easy_date_formatter.dart';
 
 void main() {
   String formattedDate = DateFormatter.formatDateTime(
